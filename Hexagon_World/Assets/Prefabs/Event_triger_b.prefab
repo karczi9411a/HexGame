@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6896857637939733187
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6896857637939733186}
+  - component: {fileID: 8035206149122661952}
+  - component: {fileID: 6896857637939733184}
+  - component: {fileID: 6896857637939733198}
+  - component: {fileID: 6896857637939733185}
+  - component: {fileID: 6896857637939733199}
+  m_Layer: 0
+  m_Name: Event_triger_b
+  m_TagString: Untagged
+  m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6896857637939733186
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6896857637939733187}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -11.49, y: 0.9101836, z: -11.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6309334860805955483}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &8035206149122661952
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6896857637939733187}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6896857637939733184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6896857637939733187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3fc6f091b6af91459eb8ed65c8947fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  questManager: {fileID: 6896857637939733198}
+  event_t: "Gdy wchodzisz na most, s\u0142yszysz strz\u0119k drewna."
+  press_t: "Wybierz opcj\u0119..."
+  prefab_ob_ev_UI: {fileID: 3980133834109772519, guid: bb3e1b181f3bfa04aa0ab30a94db64f3,
+    type: 3}
+  obj_Event_UI: {fileID: 0}
+  obj_Button_UI: {fileID: 0}
+  prefab_button: {fileID: 202, guid: c8de0cb793e833845ade798a77159c51, type: 3}
+  choice: {fileID: 6896857637939733199}
+  can_delete: 0
+  can_escape: 0
+--- !u!114 &6896857637939733198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6896857637939733187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc6fac8a0fb36ed4bb3e6459f9c4f94f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6896857637939733185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6896857637939733187}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edd712ac072cbef40890e194559d138c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextEvent: {fileID: 0}
+  TextPress: {fileID: 0}
+  questManager: {fileID: 6896857637939733198}
+--- !u!114 &6896857637939733199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6896857637939733187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81197b2846337c4faf6cb4323bc9da3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text_se_array:
+  - "Spr\xF3buj naprawi\u0107 (-10 z\u0142ota)"
+  - "Spr\xF3buj przej\u015B\u0107..."
+  - "Zawr\xF3\u0107..."
+  text_e_array:
+  - "Naprawa uda\u0142a si\u0119, mo\u017Cna bezpiecznie przej\u015B\u0107..."
+  - "Przechodzisz przez most, gdy nagle jedna z desek, \u0142amie si\u0119. Ostatnimi
+    si\u0142ami \u0142apiesz si\u0119 mostu (-10 zdrowia)..."
+  - "Uciek\u0142e\u015B..."
+  text_p_array:
+  - "Naci\u015Bnij \"E\"..."
+  - "Naci\u015Bnij \"E\"..."
+  - "Naci\u015Bnij \"E\"..."
+  profits_q: 000000000000000000000000
+  which_one: 000000000000000004000000
+  event_Triger1: {fileID: 6896857637939733184}
+  point_exit: {fileID: 8514899570874902824}
+--- !u!1 &8514899570874902824
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6309334860805955483}
+  m_Layer: 0
+  m_Name: Point_exit
+  m_TagString: Untagged
+  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6309334860805955483
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8514899570874902824}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6896857637939733186}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

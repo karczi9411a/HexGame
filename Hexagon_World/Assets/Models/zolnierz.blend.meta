@@ -1,0 +1,196 @@
+fileFormatVersion: 2
+guid: 0bb1be37b26e6b646ad724764effc20a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armature
+    100002: buty
+    100004: czapka
+    100006: glowa
+    100008: guziki
+    100010: nogi
+    100012: oczy
+    100014: rece
+    100016: rekawiczki
+    100018: Rig
+    100020: RigHead
+    100022: RigHeadBone001
+    100024: RigLCalf
+    100026: RigLCollarbone
+    100028: RigLFoot
+    100030: RigLForearm
+    100032: RigLPalm
+    100034: RigLPlatform
+    100036: RigLThigh
+    100038: RigLToe11
+    100040: RigLToe12
+    100042: RigLUpperarm
+    100044: RigNeck
+    100046: RigPelvis
+    100048: RigRCalf
+    100050: RigRCollarbone
+    100052: RigRFoot
+    100054: RigRForearm
+    100056: RigRibcage
+    100058: RigRPalm
+    100060: RigRPlatform
+    100062: RigRThigh
+    100064: RigRToe11
+    100066: RigRToe12
+    100068: RigRUpperarm
+    100070: RigSpine1
+    100072: RigSpine2
+    100074: RigSpine3
+    100076: tulow
+    100078: wlosy
+    100080: //RootNode
+    400000: Armature
+    400002: buty
+    400004: czapka
+    400006: glowa
+    400008: guziki
+    400010: nogi
+    400012: oczy
+    400014: rece
+    400016: rekawiczki
+    400018: Rig
+    400020: RigHead
+    400022: RigHeadBone001
+    400024: RigLCalf
+    400026: RigLCollarbone
+    400028: RigLFoot
+    400030: RigLForearm
+    400032: RigLPalm
+    400034: RigLPlatform
+    400036: RigLThigh
+    400038: RigLToe11
+    400040: RigLToe12
+    400042: RigLUpperarm
+    400044: RigNeck
+    400046: RigPelvis
+    400048: RigRCalf
+    400050: RigRCollarbone
+    400052: RigRFoot
+    400054: RigRForearm
+    400056: RigRibcage
+    400058: RigRPalm
+    400060: RigRPlatform
+    400062: RigRThigh
+    400064: RigRToe11
+    400066: RigRToe12
+    400068: RigRUpperarm
+    400070: RigSpine1
+    400072: RigSpine2
+    400074: RigSpine3
+    400076: tulow
+    400078: wlosy
+    400080: //RootNode
+    2100000: 01_-_Default
+    4300000: rekawiczki
+    4300002: rece
+    4300004: tulow
+    4300006: nogi
+    4300008: guziki
+    4300010: oczy
+    4300012: wlosy
+    4300014: glowa
+    4300016: czapka
+    4300018: buty
+    7400000: Default Take
+    9500000: //RootNode
+    13700000: buty
+    13700002: czapka
+    13700004: glowa
+    13700006: guziki
+    13700008: nogi
+    13700010: oczy
+    13700012: rece
+    13700014: rekawiczki
+    13700016: tulow
+    13700018: wlosy
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
